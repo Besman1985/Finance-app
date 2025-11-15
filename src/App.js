@@ -40,7 +40,7 @@ function App() {
     window.localStorage.removeItem(STORAGE_KEY)
     window.localStorage.removeItem(STORAGE_CHEK)
     window.localStorage.removeItem("financialTrackerBudgets")
-    window.location.reload()
+    window.location.reload(true)
     
 
    
