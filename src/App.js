@@ -117,7 +117,7 @@ function App() {
       <div className='dashboard-container'>
         <Sidbar onChengeDemo={onChengeDemo} demo={demo}/>
         <Routes>
-          <Route path='/' element={<DashBoardPage
+          <Route path='' element={<DashBoardPage
             transactions={transactions}
             addTransaction={addTransaction}
             BudgetFilter={BudgetFilter}
