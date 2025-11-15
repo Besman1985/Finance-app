@@ -1,0 +1,83 @@
+      .budget-card {
+          background-color: var(--card-bg);
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+          transition: transform 0.2s;
+          border: 1px solid var(--border-color);
+
+      }
+
+
+      .budget-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+      }
+
+      .card-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-bottom: 15px;
+      }
+
+      .card-title {
+          font-size: 18px;
+          font-weight: 600;
+          color: var(--text-primary);
+      }
+
+      .edit-icon {
+          color: var(--text-secondary);
+          cursor: pointer;
+          transition: color 0.2s;
+      }
+
+      .edit-icon:hover {
+          color: var(--primary-color);
+      }
+
+      .card-info {
+          font-size: 14px;
+          color: var(--text-secondary);
+          margin-bottom: 15px;
+      }
+
+      .card-info strong {
+          color: var(--text-primary);
+      }
+
+      .card-footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-top: 15px;
+      }
+
+      #dash {
+          margin-left: 5px;
+      }
+
+      .progress-bar.blue-40 {
+          background-color: var(--primary-color);
+          width: 20%;
+      }
+
+      .progress-bar.green-65 {
+          background-color: var(--success-color);
+          width: 65%;
+      }
+
+      .progress-bar.yellow-90 {
+          background-color: rgb(246, 231, 20);
+          width: 90%;
+      }
+
+      .progress-bar.red-100 {
+          background-color: var(--danger-color);
+          width: 100%;
+      }
+
+      .progress-bar.white-0 {
+          width: 0;
+      }

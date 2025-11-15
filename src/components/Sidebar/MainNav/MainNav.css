@@ -1,0 +1,30 @@
+.nav-menu {
+    height: 340px;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-item i {
+    margin-right: 15px;
+    width: 20px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    color: var(--text-primary);
+    background-color: var(--bg-light); 
+}
+
+.nav-item.active {
+    background-color: var(--card-bg); 
+    color: var(--text-primary);
+    font-weight: 500;
+}

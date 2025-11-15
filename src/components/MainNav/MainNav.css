@@ -1,0 +1,19 @@
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li a {
+    display: block;
+    padding: 12px 20px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.main-nav li.active a,
+.main-nav li a:hover {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    border-left: 4px solid var(--primary-color);
+}

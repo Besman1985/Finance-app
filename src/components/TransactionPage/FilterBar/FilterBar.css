@@ -1,0 +1,52 @@
+.filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    /* Немного темнее, чем основной контент */
+    background-color: var(--bg-dark);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    /* Фон для поля ввода */
+    background-color: var(--card-bg);
+    border-radius: 5px;
+    padding: 8px 12px;
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.search-input input {
+    border: none;
+    background: transparent;
+    color: var(--text-primary);
+    margin-left: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.search-input i {
+    color: var(--text-secondary);
+}
+
+.filter-btn {
+    background: none;
+    /* Рамка для кнопок-фильтров */
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    white-space: nowrap;
+    appearance: none;
+}
+
+.filter-btn:hover {
+    background-color: var(--card-bg);
+    color: var(--text-primary);
+}

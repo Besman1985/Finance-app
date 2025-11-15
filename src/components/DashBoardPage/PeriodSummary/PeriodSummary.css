@@ -1,0 +1,71 @@
+.card {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Сводка за период */
+
+
+.period-summary h2 {
+    margin-bottom: 10px;
+}
+
+.chart-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.chart-controls button {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.chart-controls .chart-active {
+    background-color: var(--primary-color);
+    color: var(--bg-dark);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.chart-placeholder {
+    
+    background-color: var(--bg-dark);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding-right: 25px;
+}
+
+.summary-details {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.detail h3 {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+}
+
+.detail p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.income p {
+    color: var(--success-color);
+}
+
+.expenses p {
+    color: var(--danger-color);
+}
+
+.net-flow p {
+    color: var(--primary-color);
+}

@@ -1,0 +1,72 @@
+.transaction-table-container {
+    /* Фон таблицы */
+    background-color: var(--bg-dark);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-table thead {
+    /* Заголовок таблицы - немного светлее */
+    background-color: var(--bg-light);
+}
+
+.transaction-table th,
+.transaction-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.transaction-table th {
+    color: var(--text-secondary);
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.transaction-table tbody tr {
+    transition: background-color 0.2s;
+  
+    
+
+}
+
+.transaction-table tbody tr:hover {
+    /* Подсветка строки при наведении */
+    background-color: var(--card-bg);
+}
+
+.transaction-table tbody {
+ 
+
+}
+
+/* Стиль для суммы */
+.amount {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.expense {
+    /* Красный */
+    color: var(--danger-color);
+}
+
+.income {
+    /* Зеленый */
+    color: var(--success-color);
+}
+
+.delete-icon {
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.delete-icon:hover {
+    color: var(--danger-color);
+}

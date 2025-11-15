@@ -1,0 +1,82 @@
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+
+/* темная тема */
+.dark-theme {
+    --bg-dark: #1e2029;
+    --bg-light: #2c2e36;
+    --text-primary: #f0f0f0;
+    --text-secondary: #a0a0a0;
+    --primary-color: #61a0f8;
+    --success-color: #4CAF50;
+    --danger-color: #F44336;
+    --card-bg: #2b2e35;
+    --border-color: #444;
+    --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.5);
+    --color-bg-backdrop: rgba(30, 32, 41, 0.75);
+
+}
+
+
+
+
+/* красная тема */
+.red-theme {
+    --bg-dark: #1f1414;
+    --bg-light: #2c1a1a;
+    --card-bg: #351f1f;
+    --text-primary: #f0f0f0;
+    --text-secondary: #a0a0a0;
+    --primary-color: #e53935;
+    --success-color: #4CAF50;
+    --danger-color: #F44336;
+    --border-color: #553333;
+    --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.7);
+    --color-bg-backdrop: rgba(31, 20, 20, 0.8);
+}
+
+
+/* коричневая тема */
+.brown-theme {
+
+    --bg-dark: #1f1a17;
+    --bg-light: #332d29;
+    --text-primary: #f5f5f5;
+    --text-secondary: #c2c2c2;
+    --primary-color: #ff8c00;
+    --primary-hover: #e57e00;
+    --success-color: #4CAF50;
+    --danger-color: #F44336;
+    --card-bg: #3c3531;
+    --border-color: #554a43;
+    --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.5);
+    --color-bg-backdrop: rgba(31, 26, 23, 0.8);
+
+}
+
+/* синяя тема */
+.blue-theme {
+    --bg-dark: #1A2233;
+    --bg-light: #25334A;
+    --text-primary: #f0f0f0;
+    --text-secondary: #C0D0E0;
+    --primary-color: #5B8EE6;
+    --success-color: #4CAF50;
+    --danger-color: #FF6B6B;
+    --card-bg: #1F2C40;
+    --border-color: #4A6384;
+    --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.5);
+    --color-bg-backdrop: rgba(26, 34, 51, 0.85);
+
+}

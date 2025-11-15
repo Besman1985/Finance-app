@@ -1,0 +1,34 @@
+.activity-list {
+    list-style: none;
+    padding: 10px;
+}
+
+.activity-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 0.95em;
+}
+.recent-activity {
+    height: 560px;
+   
+}
+
+
+.activity-list li span {
+    font-weight: bold;
+
+}
+
+.income{
+
+    color: var(--success-color);
+}
+
+.expense{
+    
+    color: var(--danger-color);
+}
+
+

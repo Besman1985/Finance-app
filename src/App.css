@@ -1,0 +1,11 @@
+.dashboard-container {
+ 
+    display: flex;
+    width: 90vw; 
+    height: 85vh; 
+    background-color: var(--bg-light); 
+    border-radius: 15px;
+    box-shadow: var(--shadow-dark);
+    overflow: hidden;
+}
+

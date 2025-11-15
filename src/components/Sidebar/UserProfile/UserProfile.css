@@ -1,0 +1,66 @@
+.theme-switch-container {
+    display: flex;
+    gap: 5px;
+}
+
+.theme-option {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.theme-option input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+
+.theme-option span {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 10px;
+    background: var(--bg-light);
+    /* Фон кнопки */
+    color: var(--text-primary);
+    border: 2px solid var(--border-color);
+    transition: all 0.3s ease-in-out;
+    box-shadow: var(--shadow-dark);
+    justify-content: center;
+    align-items:center
+    
+}
+
+/* Стиль для выбранной темы */
+.theme-option input[type="radio"]:checked+span {
+    background-color: var(--primary-color);
+    /* Акцентный цвет при выборе */
+    color: var(--bg-light);
+    /* Светлый текст на акцентном фоне */
+    border-color: var(--primary-color);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(97, 160, 248, 0.7);
+    /* Тень от primary-color */
+}
+
+/* Пример акцентной кнопки */
+.accent-button {
+    background-color: var(--primary-color);
+    color: var(--bg-light);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.accent-button:hover {
+    background-color: var(--success-color);
+    /* Используем success-color при наведении для примера */
+}
